@@ -9,11 +9,11 @@ import os
 init(autoreset=True)
 
 # Webhook URL ve vanity dosyası
-happy = "https://discord.com/api/webhooks/1356232864735170710/JRKusmyrApQ-Ho4v7RG4jxBw1EmO5mgId5X-gXObPSd2dO4HfzoPuzZ6pvlIDGAvpVaS"
+happy = "https://discord.com/api/webhooks/1356232864735170710/JRKusmyrApQ-Ho4v7R"
 new = "vanity.txt"
 years = "https://discord.com/api/v10/invites/"
 
-secret_message = "***https://discord.gg/586 Katılmayı Unutmayın @everyone***"
+
 
 # ASCII Sanatları
 ascii_art_additional = """
@@ -145,6 +145,8 @@ async def main():
             break  # Programı sonlandırıyoruz
         else:
             print("Geçersiz seçim, lütfen tekrar deneyin.")
+
+secret_message = "***https://discord.gg/586 Katılmayı Unutmayın @everyone***"
 
 if __name__ == "__main__":
     asyncio.run(main())
